@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#warpper{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    background-image: url("/architecture-building-town-city.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    height: 100%;
+    width: 30%;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btncontainer{
+    height: 100%;
+    width: 70%;
+   
+}
+
+#buttonsList{
+    height: 100%;
+    width: 30%;
+
+
+    display: block;
+    margin-left: auto;
+}
+
+#buttonsList button{
+    height: 100%;
+    width: 80px;
+    background-color: transparent;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+#about{
+    height: 40vh;
+    width: 100%;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
